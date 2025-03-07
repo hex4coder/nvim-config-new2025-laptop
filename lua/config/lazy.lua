@@ -22,3 +22,5 @@ require("lazy").setup({
   install = { colorscheme = { "tokyonight-night" } },
   checker = { enabled = true },
 })
+
+vim.keymap.set('n', '<leader>l', '<cmd>Lazy<CR>', {desc = "Open lazy manager", noremap = true, silent = true})
