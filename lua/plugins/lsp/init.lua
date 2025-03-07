@@ -27,7 +27,7 @@ return {
 
             m.setup()
             ml.setup({
-                ensure_installed = {"lua_ls", "gopls", },
+                ensure_installed = {"lua_ls", },
                 automatic_installation = true,
             })
         end
