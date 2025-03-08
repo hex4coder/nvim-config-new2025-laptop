@@ -12,7 +12,7 @@ local opts = { noremap = true, silent = true }
 
 -- save with Ctrl+s
 opts.desc = "Save file/buffer"
-keymap.set("n", "<C-s>", ":wqa<CR>", opts)
+keymap.set("n", "<C-s>", ":wa<CR>", opts)
 
 -- splitting window
 opts.desc = "split window in vertical"
